@@ -1,0 +1,10 @@
+This is an implementation of PIC10F202 microcontroller with output to VGA display.
+It is tested on Altera DE1-SoC, with gpasm as assambler and PICC as C compiler.
+The output of the assambler/compiler has to be intel hex8m and has to be processed by my HEX2HEX program, so that Quartus can use it.
+
+File structure:
+    cpu_core:       all the core components for PIC10F202
+    cpu_watch:      a module that helps to debug cpu(output key information to HEX and LEDR)
+    test_programs:  contains some asm and c program to test the cpu
+    test_display:   this module is connected to cpu's GPIO to print ASCII character
+    tools:          HEX2HEX source
