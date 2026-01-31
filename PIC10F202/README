@@ -8,3 +8,6 @@ File structure:
     test_programs:  contains some asm and c program to test the cpu
     test_display:   this module is connected to cpu's GPIO to print ASCII character
     tools:          HEX2HEX source
+
+https://github.com/tech4me/ECE241-project-PIC10-compatible-CPU
+
